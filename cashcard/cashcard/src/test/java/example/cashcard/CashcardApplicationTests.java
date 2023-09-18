@@ -14,6 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 //Will start Spring Boot application and make it available for our test to perform requests to it.
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 
+//As of now, tests are all hard coded in order to test Spring Boot's Bean functionality and integration
 class CashCardApplicationTests {
 
 	//Spring will inject a test helper that’ll allow us to make HTTP requests to the locally running application.
